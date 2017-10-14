@@ -14,6 +14,7 @@
 		A35C38371F91C41D00B2E1C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35C38361F91C41D00B2E1C5 /* Assets.xcassets */; };
 		A35C383A1F91C41D00B2E1C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35C38381F91C41D00B2E1C5 /* LaunchScreen.storyboard */; };
 		A35C383D1F91C41D00B2E1C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C383C1F91C41D00B2E1C5 /* main.m */; };
+		A35C38451F921E3200B2E1C5 /* ZYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C38441F921E3200B2E1C5 /* ZYDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		A35C38391F91C41D00B2E1C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A35C383B1F91C41D00B2E1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A35C383C1F91C41D00B2E1C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A35C38431F921E3200B2E1C5 /* ZYDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYDrawView.h; sourceTree = "<group>"; };
+		A35C38441F921E3200B2E1C5 /* ZYDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				A35C382B1F91C41D00B2E1C5 /* AppDelegate.m */,
 				A35C382D1F91C41D00B2E1C5 /* ViewController.h */,
 				A35C382E1F91C41D00B2E1C5 /* ViewController.m */,
+				A35C38431F921E3200B2E1C5 /* ZYDrawView.h */,
+				A35C38441F921E3200B2E1C5 /* ZYDrawView.m */,
 				A35C38301F91C41D00B2E1C5 /* Main.storyboard */,
 				A35C38361F91C41D00B2E1C5 /* Assets.xcassets */,
 				A35C38381F91C41D00B2E1C5 /* LaunchScreen.storyboard */,
@@ -100,6 +105,7 @@
 		A35C381F1F91C41C00B2E1C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZY;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = sunny;
 				TargetAttributes = {
@@ -145,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35C38451F921E3200B2E1C5 /* ZYDrawView.m in Sources */,
 				A35C382F1F91C41D00B2E1C5 /* ViewController.m in Sources */,
 				A35C38351F91C41D00B2E1C5 /* DrawingBoard.xcdatamodeld in Sources */,
 				A35C383D1F91C41D00B2E1C5 /* main.m in Sources */,

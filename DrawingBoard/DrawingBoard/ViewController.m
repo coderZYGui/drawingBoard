@@ -20,9 +20,12 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/**
+ 隐藏导航
+ */
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 
