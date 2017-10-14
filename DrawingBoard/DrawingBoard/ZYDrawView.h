@@ -10,4 +10,17 @@
 
 @interface ZYDrawView : UIView
 
+@property (nonatomic, strong) UIImage *image;
+
+// 清屏
+- (void)clear;
+// 撤销
+- (void)undo;
+// 擦除
+- (void)eraser;
+// 设置线宽
+- (void)setLineWidth:(CGFloat)width;
+// 设置线的颜色
+- (void)setLineColor:(UIColor *)color;
+
 @end

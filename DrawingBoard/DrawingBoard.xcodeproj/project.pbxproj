@@ -15,6 +15,8 @@
 		A35C383A1F91C41D00B2E1C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35C38381F91C41D00B2E1C5 /* LaunchScreen.storyboard */; };
 		A35C383D1F91C41D00B2E1C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C383C1F91C41D00B2E1C5 /* main.m */; };
 		A35C38451F921E3200B2E1C5 /* ZYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C38441F921E3200B2E1C5 /* ZYDrawView.m */; };
+		A35C38481F922B3A00B2E1C5 /* ZYBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C38471F922B3A00B2E1C5 /* ZYBezierPath.m */; };
+		A35C384B1F92336200B2E1C5 /* ZYHandleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A35C384A1F92336200B2E1C5 /* ZYHandleImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		A35C383C1F91C41D00B2E1C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A35C38431F921E3200B2E1C5 /* ZYDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYDrawView.h; sourceTree = "<group>"; };
 		A35C38441F921E3200B2E1C5 /* ZYDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYDrawView.m; sourceTree = "<group>"; };
+		A35C38461F922B3A00B2E1C5 /* ZYBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYBezierPath.h; sourceTree = "<group>"; };
+		A35C38471F922B3A00B2E1C5 /* ZYBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYBezierPath.m; sourceTree = "<group>"; };
+		A35C38491F92336200B2E1C5 /* ZYHandleImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHandleImageView.h; sourceTree = "<group>"; };
+		A35C384A1F92336200B2E1C5 /* ZYHandleImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHandleImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,10 @@
 				A35C382E1F91C41D00B2E1C5 /* ViewController.m */,
 				A35C38431F921E3200B2E1C5 /* ZYDrawView.h */,
 				A35C38441F921E3200B2E1C5 /* ZYDrawView.m */,
+				A35C38461F922B3A00B2E1C5 /* ZYBezierPath.h */,
+				A35C38471F922B3A00B2E1C5 /* ZYBezierPath.m */,
+				A35C38491F92336200B2E1C5 /* ZYHandleImageView.h */,
+				A35C384A1F92336200B2E1C5 /* ZYHandleImageView.m */,
 				A35C38301F91C41D00B2E1C5 /* Main.storyboard */,
 				A35C38361F91C41D00B2E1C5 /* Assets.xcassets */,
 				A35C38381F91C41D00B2E1C5 /* LaunchScreen.storyboard */,
@@ -151,9 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35C38481F922B3A00B2E1C5 /* ZYBezierPath.m in Sources */,
 				A35C38451F921E3200B2E1C5 /* ZYDrawView.m in Sources */,
 				A35C382F1F91C41D00B2E1C5 /* ViewController.m in Sources */,
 				A35C38351F91C41D00B2E1C5 /* DrawingBoard.xcdatamodeld in Sources */,
+				A35C384B1F92336200B2E1C5 /* ZYHandleImageView.m in Sources */,
 				A35C383D1F91C41D00B2E1C5 /* main.m in Sources */,
 				A35C382C1F91C41D00B2E1C5 /* AppDelegate.m in Sources */,
 			);
